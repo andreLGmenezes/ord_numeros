@@ -1,0 +1,99 @@
+/* Geral */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container principal */
+.container {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Títulos */
+h1, h2 {
+    color: #bb86fc;
+    text-align: center;
+}
+
+/* Texto */
+p {
+    line-height: 1.6;
+}
+
+/* Botões */
+button {
+    background-color: #bb86fc;
+    color: #121212;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #9f67e9;
+}
+
+/* Campos de formulário */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+}
+
+/* Links */
+a {
+    color: #03dac6;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #02a893;
+}
+
+/* Tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #1f1f1f;
+    color: #bb86fc;
+}
+
+table tr:nth-child(even) {
+    background-color: #242424;
+}
+
+table tr:hover {
+    background-color: #333;
+}
